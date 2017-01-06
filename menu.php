@@ -6,14 +6,13 @@
         <META NAME="Description" CONTENT="Logowanie, loguj">
         <META NAME="Keywords" CONTENT="Rafał, Teodorowski, informatyka, programowanie, internetowe, politechnika, warszawska">
         <link rel="stylesheet" href="../style/menu.css" type="text/css" media="all" />	
-		 <script type="text/javascript" src="style/js.js" charset="UTF-8"></script>
+        <script type="text/javascript" src="style/js.js" charset="UTF-8"></script>
         <title>Projekt 4</title>
     </head>
     <body>
 
         ﻿<?php
-
-        ?>
+?>
 
 
         <div id="calosc">
@@ -29,17 +28,19 @@
             <div id="content">
 
                 <h1>Projekt 4</h1>
-				
-				<a href="#" id="upload" onClick="zmien(this.id)">Upload</a>
-				<a href="#" id="upload2" onClick="zmien(this.id)">Upload2</a>
-				<a href="#" id="prezentacja" onClick="zmien(this.id)">Prezentacja</a>
-				<a href="#" id="klasa" onClick="zmien(this.id)">Klasa</a>
-				<a href="#" id="ajax" onClick="zmien(this.id)">Ajax</a>
 
-				
-				<iframe src="prezentacja.php" width="100%" height="800" frameborder="0" id="ramka">
-Twoja przeglądarka nie obsługuje ramek pływających!
-</iframe>
+                <a href="#" id="upload" onClick="zmien(this.id)">Upload</a>
+                <a href="#" id="upload2" onClick="zmien(this.id)">Upload2</a>
+                <a href="#" id="prezentacja" onClick="zmien(this.id)">Prezentacja</a>
+                <a href="#" id="klasa" onClick="zmien(this.id)">Klasa</a>
+                <a href="#" id="ajax" onClick="zmien(this.id)">Ajax</a>
+
+                <a href="https://github.com/kupiecRT/Projekt_4" id="git">Kody Źródłowe</a>
+
+                <div id="nadramka">
+                    <iframe src="prezentacja.php"  id="ramka">
+                    </iframe>
+                </div>
 
             </div>
 
@@ -52,7 +53,7 @@ Twoja przeglądarka nie obsługuje ramek pływających!
                          alt="Poprawny CSS!" />
                 </a>
 
-                <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fvolt.iem.pw.edu.pl%2F~teodoror%2FProjekt_3%2Fmenu.php">
+                <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fvolt.iem.pw.edu.pl%2F~teodoror%2FProjekt_4%2Fmenu.php">
                     <img style="border:0;width:90px;height:38px; margin-bottom:-6px; margin-left: -5px" 
                          src="../Obrazy/Valid_HTML5.png"
                          alt="Poprawny HTML5"/>
@@ -60,6 +61,5 @@ Twoja przeglądarka nie obsługuje ramek pływających!
 
             </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
